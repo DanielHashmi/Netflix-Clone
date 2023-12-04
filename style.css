@@ -1,0 +1,1135 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    height: 0px;
+    background-color: black;
+}
+
+.black {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-image: linear-gradient(28deg, black, #0000001c);
+    top: 0px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 24px;
+}
+
+.bgImg {
+    opacity: 0.5;
+    width: 83%;
+    right: 0px;
+    position: relative;
+    left: 331px;
+    bottom: 122px;
+}
+
+.signIn {
+    color: white;
+    background-color: #d80000;
+    width: 75px;
+    height: 32px;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-right: 26px;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-weight: 600;
+    box-shadow: -20px -8px 120px 125px black;
+    z-index: 1;
+}
+
+.logo {
+    width: 190px;
+    z-index: 1;
+    position: relative;
+}
+
+.firstDiv {
+    background-color: black;
+    height: 872px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 35px;
+    flex-direction: column;
+}
+
+.innerDiv {
+    background-color: #00000000;
+    color: white;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 356px;
+    position: absolute;
+    margin-top: 280px;
+}
+
+.h2 {
+    font-size: 62px;
+    font-weight: 800;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #ffeeee;
+}
+
+h4 {
+    margin-top: 60px;
+    color: #bfbfbff5;
+    font-weight: 100;
+    font-size: 15.5px;
+    margin-bottom: 14px;
+}
+
+.line {
+    width: 100%;
+    height: 147px;
+    z-index: 1;
+    position: relative;
+    bottom: 139px;
+}
+
+.email {
+    background-color: black;
+    border: 1px solid #808080c2;
+    height: 21px;
+    width: 440px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    padding: 16px;
+}
+
+::placeholder {
+    color: #a9a9a9f7;
+    ;
+}
+
+.getStarted {
+    background-color: #ee0101;
+    height: 58px;
+    width: 199px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 8px;
+    position: relative;
+    top: 3px;
+}
+
+/* Second section styling */
+
+.main {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: white;
+    height: 22vw;
+    width: 64vw;
+    flex-direction: column;
+    padding: 51px 0px 0px 0px;
+}
+
+.box {
+    background-color: rgb(105 69 105);
+    display: flex;
+    height: 271px;
+    width: 327px;
+    margin: 2px 11px 2px 2px;
+    background-image: linear-gradient(167deg, #050037f7, #0000009e);
+    border-radius: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 12px;
+}
+
+.img {
+    margin-top: 80px;
+}
+
+.secondDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 143px;
+    background-color: black;
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxHeading {
+    font-size: 32px;
+    width: 246px;
+    color: white;
+    line-height: 43px;
+}
+
+.up {
+    margin-top: 46px;
+}
+
+.secondDivLebels {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    position: relative;
+    bottom: 216px;
+}
+
+.lab {
+    height: 10px;
+    width: 880px;
+    background-color: #2f2f2f;
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px;
+    margin-right: 240px;
+    transition: 0.2s ease-in-out;
+}
+
+.lab:hover {
+    background-color: #414141;
+}
+
+.l1 {
+    font-size: 23px;
+    font-weight: 100;
+    margin-left: -12px;
+}
+
+.lebalHeadings {
+    font-size: 32px;
+    margin-bottom: 19px;
+}
+
+.plus {
+    font-size: 56px;
+    font-family: auto;
+    margin-right: -11px;
+}
+
+.inputDiv2 {
+    background-color: black;
+    position: relative;
+    bottom: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email2 {
+    background-color: black;
+    border: 1px solid #808080c2;
+    height: 21px;
+    width: 39vw;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    padding: 16px;
+}
+
+.inputSec {
+    margin-right: 210px;
+}
+
+.h42 {
+    margin-top: 42px;
+    color: #bfbfbff5;
+    font-weight: 100;
+    font-size: 15.5px;
+    margin-bottom: 14px;
+    margin-right: 693px;
+}
+
+/* Styling the footer */
+
+footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 306px;
+    height: 503px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contantDiv {
+    background-color: #000000;
+    height: 410px;
+    width: 48vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 187px;
+}
+
+.tag {
+    color: #ffffffa4;
+    margin-top: 19px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.aBox1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.aBoxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 190px;
+}
+
+.mainTag {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.lastBtn {
+    background-color: black;
+    width: 124px;
+    color: white;
+    height: 33px;
+    border: 1px solid #ffffff61;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 41px;
+}
+
+h5 {
+    font-weight: 100;
+    color: #fff6f6b8;
+    margin-top: 44px;
+}
+
+@media(max-width:1800px) {
+    .bgImg {
+        opacity: 0.5;
+        width: 78.5vw;
+        right: 0px;
+        position: relative;
+        left: 290px;
+        bottom: 122px;
+    }
+
+    .signIn {
+        color: #ffe8e8;
+        background-color: #d80000;
+        width: 75px;
+        height: 32px;
+        border-radius: 4px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        margin-right: 26px;
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+        font-weight: 600;
+        box-shadow: -20px -8px 120px 125px black;
+        z-index: 1;
+    }
+
+    .firstDiv {
+        background-color: black;
+        height: 872px;
+        display: flex;
+        align-items: baseline;
+        padding-top: 35px;
+        flex-direction: column;
+    }
+
+    .innerDiv {
+        background-color: #00000000;
+        color: white;
+        height: 391px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 142px;
+        position: absolute;
+        margin-top: 191px;
+    }
+
+    .h2 {
+        font-size: 53px;
+        font-weight: 800;
+    }
+
+    h3 {
+        margin-top: 30px;
+        color: #ffeeee;
+    }
+
+    h4 {
+        margin-top: 60px;
+        color: #bfbfbff5;
+        font-weight: 100;
+        font-size: 15.5px;
+        margin-bottom: 14px;
+    }
+
+    .line {
+        width: 100%;
+        height: 147px;
+        z-index: 1;
+        position: relative;
+        bottom: 275px;
+    }
+
+    .email {
+        background-color: black;
+        border: 1px solid #808080c2;
+        height: 21px;
+        width: 440px;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        padding: 16px;
+    }
+
+    ::placeholder {
+        color: #a9a9a9f7;
+        ;
+    }
+
+    .getStarted {
+        background-color: #ee0101;
+        height: 58px;
+        width: 199px;
+        color: white;
+        font-size: 23px;
+        font-weight: bold;
+        border-radius: 8px;
+        position: relative;
+        top: 3px;
+    }
+
+    /* Second section styling */
+
+    .main {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        color: white;
+        height: 22vw;
+        width: 80vw;
+        flex-direction: column;
+        padding: 51px 0px 0px 0px;
+    }
+
+    .box {
+        background-color: rgb(105 69 105);
+        display: flex;
+        height: 32vh;
+        width: 18vw;
+        margin: 2px 11px 2px 2px;
+        background-image: linear-gradient(167deg, #050037f7, #0000009e);
+        border-radius: 15px;
+        font-size: 32px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        padding: 12px;
+        z-index: 1;
+    }
+
+    .img {
+        margin-top: 80px;
+    }
+
+    .secondDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 322px;
+        background-color: black;
+    }
+
+    .heading {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxHeading {
+        font-size: 32px;
+        width: 246px;
+        color: white;
+        line-height: 43px;
+    }
+
+    .up {
+        margin-top: 46px;
+    }
+
+    .secondDivLebels {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        position: relative;
+        bottom: 330px;
+    }
+
+    .lab {
+        height: 10px;
+        width: 57vw;
+        background-color: #2f2f2f;
+        margin-top: 9px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 37px;
+        margin-right: 240px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .lab:hover {
+        background-color: #414141;
+    }
+
+    .l1 {
+        font-size: 23px;
+        font-weight: 100;
+        margin-left: -12px;
+    }
+
+    .lebalHeadings {
+        font-size: 22px;
+        margin-bottom: 19px;
+    }
+
+    .lebals {
+        margin-left: -10px;
+    }
+
+    .plus {
+        font-size: 56px;
+        font-family: auto;
+        margin-right: -11px;
+    }
+
+    .inputDiv2 {
+        background-color: black;
+        position: relative;
+        bottom: 416px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email2 {
+        background-color: black;
+        border: 1px solid #808080c2;
+        height: 21px;
+        width: 54vw;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        padding: 16px;
+    }
+
+    .inputSec {
+        margin-right: 133px;
+    }
+
+    .h42 {
+        margin-top: 42px;
+        color: #bfbfbff5;
+        font-weight: 100;
+        font-size: 15.5px;
+        margin-bottom: 14px;
+        margin-right: 600px;
+    }
+
+    /* Styling the footer */
+
+    footer {
+        background-color: black;
+        color: white;
+        position: relative;
+        bottom: 416px;
+        height: 503px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contantDiv {
+        background-color: #000000;
+        height: 397px;
+        width: 63vw;
+        display: flex;
+        flex-direction: column;
+        margin-right: 187px;
+    }
+
+    .tag {
+        color: #ffffffa4;
+        margin-top: 19px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .aBox1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aBoxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 190px;
+    }
+
+    .mainTag {
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .lastBtn {
+        background-color: black;
+        width: 124px;
+        color: white;
+        height: 33px;
+        border: 1px solid #ffffff61;
+        padding: 7px;
+        border-radius: 3px;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 41px;
+    }
+
+    h5 {
+        font-weight: 100;
+        color: #fff6f6b8;
+        margin-top: 44px;
+    }
+}
+
+@media(max-width:1360px) {
+    .bgImg {
+        opacity: 0.5;
+        width: 99.5vw;
+        right: 0px;
+        position: relative;
+        left: 4px;
+        bottom: 122px;
+    }
+
+    .main {
+        width: 84vw;
+    }
+
+    .firstDiv {
+        background-color: black;
+        height: 82vh;
+        display: flex;
+        align-items: baseline;
+        padding-top: 35px;
+        flex-direction: column;
+    }
+
+    .innerDiv {
+        background-color: #00000000;
+        color: white;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 87px;
+        position: absolute;
+        margin-top: 248px;
+    }
+
+    .h2 {
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .email {
+        background-color: black;
+        border: 1px solid #808080c2;
+        height: 21px;
+        width: 25vw;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        padding: 16px;
+    }
+
+    h3 {
+        margin-top: 30px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .getStarted {
+        background-color: #ee0101;
+        height: 58px;
+        width: 180px;
+        color: white;
+        font-size: 19px;
+        font-weight: 100;
+        border-radius: 8px;
+        position: relative;
+        top: 3px;
+    }
+
+    .boxHeading {
+        font-size: 2vw;
+        width: 18vw;
+        color: white;
+        line-height: 3vw;
+        font-weight: 600;
+    }
+
+    .box {
+        background-color: rgb(105 69 105);
+        display: flex;
+        height: 27vh;
+        width: 18vw;
+        margin: 2px 11px 2px 2px;
+        background-image: linear-gradient(167deg, #050037f7, #0000009e);
+        border-radius: 15px;
+        font-size: 32px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        padding: 12px;
+        z-index: 1;
+    }
+
+    .lebals {
+        margin-left: 33px;
+        margin-top: 85px;
+    }
+
+    .lebalHeadings {
+        font-size: 22px;
+    }
+
+    .inputDiv2 {
+        background-color: black;
+        position: relative;
+        bottom: 379px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        position: relative;
+        bottom: 44vh;
+        height: 503px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h42 {
+        margin-right: 39vw;
+    }
+}
+
+@media(max-width:498px) {
+    .logo {
+        width: 28vw;
+        z-index: 1;
+        position: relative;
+    }
+
+    .signIn {
+        margin-right: -10px;
+    }
+
+    .h2 {
+        font-size: 29px;
+        font-weight: 800;
+    }
+
+    .innerDiv {
+        margin-left: 6vw;
+    }
+
+    .email {
+        background-color: black;
+        border: 1px solid #808080c2;
+        height: 16px;
+        width: 79vw;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        padding: 16px;
+    }
+
+    .getStarted {
+        background-color: #ee0101;
+        height: 52px;
+        width: 165px;
+        color: white;
+        font-size: 19px;
+        font-weight: 100;
+        border-radius: 8px;
+        position: relative;
+        top: 3px;
+        margin-top: 17px;
+    }
+
+    .line {
+        width: 100vw;
+        height: 99px;
+        z-index: 1;
+        position: relative;
+        bottom: 29vh;
+    }
+
+    .heading {
+        font-size: 4vw;
+        margin-bottom: 15px;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        height: 10vh;
+        width: 88vw;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .boxHeading {
+        font-size: 4.5vw;
+        width: 78vw;
+        color: white;
+        line-height: 7vw;
+        font-weight: 600;
+        height: 7vh;
+    }
+
+    .lebals {
+        margin-left: 50vw;
+        margin-top: 20vh;
+    }
+
+    .secondDivLebels {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        position: relative;
+        bottom: 4vh;
+    }
+
+    .lab {
+        height: 0vh;
+        width: 74vw;
+        background-color: #2f2f2f;
+        margin-top: 9px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 37px;
+        margin-right: 50vw;
+        transition: 0.2s ease-in-out;
+    }
+
+    .l1 {
+        font-size: 4vw;
+        font-weight: 100;
+        margin-left: -12px;
+    }
+
+    .plus {
+        font-size: 36px;
+        font-family: auto;
+        margin-right: -11px;
+    }
+
+    .lebalHeadings {
+        font-size: 17px;
+    }
+
+    .inputDiv2 {
+        bottom: 7vh;
+    }
+
+    .h42 {
+        margin-right: 13vw;
+        margin-left: 24px;
+    }
+
+    .email2 {
+        width: 79vw;
+        margin-left: 124px;
+    }
+
+    .get {
+        left: 30vw;
+    }
+
+    footer {
+        bottom: 7vh;
+        margin-left: 22vw;
+        height: 95vh;
+    }
+
+    .aBoxes {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .lastDiv {
+        margin-top: 40vh;
+    }
+
+    .mainTag {
+        width: 54vw;
+        margin-bottom: 22px;
+    }
+
+    .contantDiv {
+        margin-bottom: 45vh;
+    }
+}
+
+@media(max-width:900px) {
+    .logo {
+        width: 28vw;
+        z-index: 1;
+        position: relative;
+    }
+
+    .signIn {
+        margin-right: -10px;
+    }
+
+    .h2 {
+        font-size: 29px;
+        font-weight: 800;
+    }
+
+    .innerDiv {
+        margin-left: 6vw;
+        margin-top: 272px;
+    }
+
+    .email {
+        background-color: black;
+        border: 1px solid #808080c2;
+        height: 16px;
+        width: 79vw;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        padding: 16px;
+    }
+
+    .getStarted {
+        background-color: #ee0101;
+        height: 52px;
+        width: 165px;
+        color: white;
+        font-size: 19px;
+        font-weight: 100;
+        border-radius: 8px;
+        position: relative;
+        top: 3px;
+        margin-top: 17px;
+    }
+
+    .line {
+        width: 113vw;
+        height: 99px;
+        z-index: 1;
+        position: relative;
+        bottom: 29vh;
+    }
+
+    .heading {
+        font-size: 3vw;
+        margin-bottom: 15px;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        height: 10vh;
+        width: 87vw;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+
+    .boxHeading {
+        font-size: 19px;
+        width: 308px;
+        color: white;
+        line-height: 4vw;
+        font-weight: 600;
+        height: 7vh;
+    }
+
+    .lebals {
+        margin-top: 20vh;
+    }
+
+    .secondDivLebels {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        position: relative;
+        bottom: 4vh;
+    }
+
+    .lab {
+        height: 0vh;
+        width: 81vw;
+        background-color: #2f2f2f;
+        margin-top: 9px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 37px;
+        margin-right: 4vw;
+        transition: 0.2s ease-in-out;
+    }
+
+    .l1 {
+        font-size: 3vw;
+        font-weight: 100;
+        margin-left: -12px;
+    }
+
+    .plus {
+        font-size: 36px;
+        font-family: auto;
+        margin-right: -11px;
+    }
+
+    .lebalHeadings {
+        font-size: 17px;
+    }
+
+    .inputDiv2 {
+        bottom: 7vh;
+    }
+
+    .h42 {
+        margin-right: 13vw;
+        margin-left: 8vw;
+    }
+
+    .email2 {
+        width: 83vw;
+        margin-left: 30vw;
+    }
+
+    .get {
+        left: 30vw;
+    }
+
+    footer {
+        bottom: 7vh;
+        margin-left: 22vw;
+        height: 95vh;
+    }
+
+    .aBoxes {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .lastDiv {
+        margin-top: 40vh;
+    }
+
+    .mainTag {
+        width: 54vw;
+        margin-bottom: 22px;
+    }
+
+    .contantDiv {
+        margin-bottom: 45vh;
+        margin-right: 52vw;
+    }
+
+    .main {
+        margin-top: 3vh;
+    }
+
+    h4 {
+        margin-top: 22px;
+    }
+}
