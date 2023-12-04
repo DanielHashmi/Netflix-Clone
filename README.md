@@ -1,5 +1,6 @@
 # Netflix Clone
-
+<b><i><a href="https://danielhashmi.github.io/Netflix-Clone/">Open Project</a></i></b>
+<br>
 <b><i>This is a Clone of Netflix that i tried to make</i></b>
 <br>
 <b><i>This is a Clone so it is not as perfect as the original one</i></b>
